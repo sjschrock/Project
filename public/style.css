@@ -1,0 +1,52 @@
+body {
+  font-family: 'Do Hyeon';
+  font-size: 22px;
+}
+
+div.repeat {
+  font-family: 'Barrio';
+  font-size: 22px;
+}
+
+#title {
+  font-size: 75px;
+  height: 100px; 
+  color: #cecdca;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+#menubar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #5f5f5f;
+}
+
+li.menu {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #cecdca;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: black;
+}
+
+li.selected {
+  float: left;
+	background-color: purple;
+}
+
+#about {
+  width: 60%;
+  overflow: auto;
+  height: 250px;
+}
